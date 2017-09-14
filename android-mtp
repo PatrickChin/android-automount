@@ -24,6 +24,6 @@ case $1 in
     /bin/rmdir "/media/$DEVICE_NAME"
     ;;
   *)
-    echo "Usage: android-mtp start device-name"
+    echo "Usage: android-mtp start|stop device-name"
     ;;
 esac

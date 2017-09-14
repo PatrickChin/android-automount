@@ -2,5 +2,5 @@
 
 [Service]
 Type=forking
-ExecStart=/usr/bin/mtp mount %I
-ExecStop=/usr/bin/mtp unmount %I
+ExecStart=/usr/bin/android-mtp mount %I
+ExecStop=/usr/bin/android-mtp unmount %I
